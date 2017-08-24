@@ -8,11 +8,13 @@
 
 // Base
 @import "partials/fonts";
-@import "partials/site";
+@import "partials/base";
 
 // Components
+@import "partials/about";
 @import "partials/case-studies";
 @import "partials/nav";
+@import "partials/work";
 
 // Utilities
 @import "utilities/text-align";

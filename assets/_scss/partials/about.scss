@@ -1,0 +1,24 @@
+.about {
+	display: table;
+	font-size: 24px;
+
+	img,
+	div {
+		display: table-cell;
+		vertical-align: middle;
+	}
+
+	div {
+		padding: 0 50px;
+	}
+
+	span.teal {
+		color: $teal;
+	}
+}
+
+@media (max-width: 655px) {
+	.about img {
+		display: none;
+	}
+}

@@ -1,0 +1,29 @@
+.work {
+	position: relative;
+
+	section {
+		margin-bottom: 50px;
+	}
+
+	ul {
+		@include nolist();
+	}
+
+	li {
+		margin: 10px;
+	}
+
+	a {
+		display: block;
+		@include transition(all .1s linear);
+
+		&:hover {
+			box-shadow: 0 1px 4px rgba(0,0,0,.2);
+			@include translate(0, -1px);
+		}
+	}
+
+	img {
+		display: block;
+	}
+}
