@@ -71,24 +71,6 @@ header {
 	span.teal {
 		color: $teal;
 	}
-
-	nav {
-		font-size: 14px;
-		margin: 10px 0 0;
-
-		ul {
-			@include nolist();
-		}
-
-		li {
-			display: inline-block;
-			margin: 0 20px 0 0;
-		}
-
-		a {
-			padding: 0 10px;
-		}
-	}
 }
 
 #work {

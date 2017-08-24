@@ -1,0 +1,17 @@
+nav {
+	font-size: 14px;
+	margin: 30px 0 0;
+
+	ul {
+		@include nolist();
+	}
+
+	li {
+		display: inline-block;
+		margin: 0 20px 0 0;
+	}
+
+	a {
+		padding: 0 10px;
+	}
+}

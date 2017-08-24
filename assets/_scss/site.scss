@@ -6,6 +6,15 @@
 @import "helpers/shortcuts";
 @import "helpers/prefixes";
 
+// Base
 @import "partials/fonts";
 @import "partials/site";
+
+// Components
+@import "partials/nav";
+
+// Utilities
+@import "utilities/text-align";
+
+// Vendor
 @import "partials/view.js";
